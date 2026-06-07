@@ -202,14 +202,14 @@ pipeline.fit(X_train, y_train)
 
 ## 🔭 Future Scope
 
-| Feature | Description | Priority |
+| Feature | Description | 
 |---|---|---|
-| 🌦️ Real-time Weather APIs | Integrate live weather feeds (OpenWeatherMap, NOAA) to enrich predictions with current conditions | High |
-| 📡 Live Risk Dashboard | Streaming dashboard tracking geopolitical risk scores by region in real time | High |
-| 🔔 Alert System | Email/Slack notifications when disruption probability exceeds a configurable threshold | Medium |
-| 🗺️ Route Optimization | Recommend alternative routes when high disruption risk is detected | Medium |
-| 🔄 Model Retraining Pipeline | Automated weekly retraining with new shipment data using MLflow tracking | Low |
-| 🌐 Multi-modal Risk Scoring | Incorporate news sentiment analysis via NLP for geopolitical risk estimation | Low |
+| 🌦️ Real-time Weather APIs | Integrate live weather feeds (OpenWeatherMap, NOAA) to enrich predictions with current conditions | 
+| 📡 Live Risk Dashboard | Streaming dashboard tracking geopolitical risk scores by region in real time |
+| 🔔 Alert System | Email/Slack notifications when disruption probability exceeds a configurable threshold |
+| 🗺️ Route Optimization | Recommend alternative routes when high disruption risk is detected |
+| 🔄 Model Retraining Pipeline | Automated weekly retraining with new shipment data using MLflow tracking | 
+| 🌐 Multi-modal Risk Scoring | Incorporate news sentiment analysis via NLP for geopolitical risk estimation | 
 
 ---
 
