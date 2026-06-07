@@ -3,20 +3,17 @@ import streamlit as st
 import pandas as pd
 from joblib import load
 
-# Load saved files
+
 model = load("model.pkl")
 scaler = load("scaler.pkl")
 columns = load("columns.pkl")
 
-# Title
+
 st.title("Supply Chain Disruption Predictor")
 
 st.write("Enter shipment details to predict disruption risk.")
 
-# -----------------------------
-# User Inputs
-# -----------------------------
-
+# Inputs
 distance = st.number_input(
     "Distance (km)",
     min_value=0.0
@@ -57,10 +54,6 @@ weather = st.selectbox(
     "Weather Condition",
     ["Clear", "Rain", "Storm"]
 )
-
-# -----------------------------
-# Prediction Button
-# -----------------------------
 
 if st.button("Predict"):
 
